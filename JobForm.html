@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Application</h2>
+    <form action=""  m>
+        <fieldset>
+            <legend>Personal Details</legend>
+           <label for=""> NAME:</label>
+           <input type="text" name="name" placeholder="name" id="name" required autofocus><br><br>
+           <label for="">CONTACT:</label>
+           <input type="tel" pattern="[0-9]{10}" required><br><br>
+           <label for="">EMAIL:</label>
+           <input type="email"><br><br>
+           <label for="">DOB</label>
+           <input type="date" min="1980-01-01" max="2005-01-01"><br><br>
+           <label for="">GENDER</label>
+           <input type="radio" name="Gender" value="male">male
+           <input type="radio" name="Gender" value="female">female
+           <input type="radio" name="Gender" value="Others">Others  <br><br>
+        </fieldset>
+           <fieldset>
+            <legend>Education</legend>
+           <label for=""> Highest Degree:</label>
+<select name="highest degree" id="Degree">
+    <option value="highest degree">Highest Degree</option>
+    <option value="be">BE</option>
+    <option value="me">ME</option>
+    <option value="b.sc">b.sc</option>
+    <option value="m.sc">M.sc</option>
+
+</select>
+<br><br>
+           <label for="" >Percentage:</label>
+           <input type="number" name="Percentage:" min="0" max="100" required><br><br>
+           <label for="">Skills:</label>
+           <input type="checkbox" name="Skills" value="AI" checked>AI
+           <input type="checkbox" name="Skills" value="ML">ML
+           <input type="checkbox" name="Skills" value="Python">Python <br><br>
+
+</fieldset>
+<fieldset>
+    <legend>Address</legend>
+    <label for="Address">Address:</label>
+    <textarea name="" id="" required></textarea> <br><br>  
+    <label for="">City:</label>
+    <input type="text"><br><br><br>
+    <label for="States">State:</label>
+    <input list="States" placeholder="Select State" id="states">
+    <datalist id="States">
+        <option value="Andhra pardesh ">
+        <option value="Karnataka">
+        <option value="Kerala">
+        <option value="Tamil nadu">
+        <option value="Telengana">
+        <option value="West Bengal">
+        <option value="Tripura">
+        <option value="Maharastra">
+        <option value="Delhi">
+        <option value="Madhya pradesh">
+        <option value="Rajastan">
+        <option value="Sikkim"> 
+    </datalist>
+    <br><br>
+    <label for="">Pin code:</label>
+    <input type="tel" pattern="[0-9] {6}" ><br><br>
+    </fieldset>
+    <fieldset>
+        <legend>Details</legend>
+        <label for="">Resume:</label>
+    <input type="file" name="resume" id=""><br><br>
+    <label for="">Transportation:</label>
+    <select name="Select cab" id="cab">
+       <optgroup  label="Audi">
+        <option value="">R8</option>
+        <option value="">R7</option>
+        <option value="">A6</option>
+       </optgroup>
+       <optgroup  label="Buccati">
+        <option value="">5</option>
+        <option value="">7</option>
+        <option value="">6</option>
+       </optgroup>
+       <optgroup  label="Astron Martin">
+        <option value="">1</option>
+        <option value="">2</option>
+        <option value="">3</option>
+       </optgroup>
+    </select><br><br>
+    <label for="">Select Tshirt color:</label>
+    <input type="color" ><br><br>
+    <input type="submit">
+    </fieldset>
+    
+
+    </form>
+</fieldset>
+</body>
+</html>
